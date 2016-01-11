@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Bleep</string>
+    <string name="playing_sound">Playing beep</string>
+    <string name="unable_play_sound">Cannot bleep at the current moment</string>
+</resources>
