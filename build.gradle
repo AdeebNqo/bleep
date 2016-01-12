@@ -18,6 +18,13 @@ android {
     }
 }
 
+repositories {
+       maven {
+           url "https://jitpack.io"
+           credentials { username authToken }
+       }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
