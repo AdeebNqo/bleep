@@ -17,6 +17,26 @@ if (BuildConfig.DEBUG){
 }
 ```
 
+Add the following in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+Add the following dependency to your build.gradle file
+
+```
+dependencies {
+     ...
+	 compile 'com.github.AdeebNqo:bleep:v1.0'
+}
+```
+
 # How much?
 
 All this awesomeness costs $00.00
