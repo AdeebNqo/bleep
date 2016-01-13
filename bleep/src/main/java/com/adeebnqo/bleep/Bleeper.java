@@ -83,7 +83,7 @@ public class Bleeper {
         if (activity==null) {
             return null;
         }
-        if(untouchedView.getWindowToken() == null) {
+        if(untouchedView!=null && untouchedView.getWindowToken() == null) {
             final ViewGroup viewGroup = (ViewGroup) ((ViewGroup) activity.findViewById(android.R.id.content)).getChildAt(0);
 
             numberView.setText(String.valueOf(randomGenerator.nextInt()));
