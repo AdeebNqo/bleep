@@ -25,7 +25,7 @@ repositories {
        jcenter()
        maven {
            url "https://jitpack.io"
-           credentials { username 5e519bfb97278fb5f137bee028b0edac39d79732 }
+           credentials { username authToken }
        }
 }
 
