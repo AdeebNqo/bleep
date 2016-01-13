@@ -9,7 +9,6 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.AdeebNqo'
 
@@ -32,6 +31,7 @@ android {
 }
 
 repositories {
+       jcenter()
        maven {
            url "https://jitpack.io"
            credentials { username authToken }
