@@ -2,7 +2,6 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/as-seen-on-tv.svg)](http://forthebadge.com)
 
-*activate ad voice
 1. Are you an Android Developer and do you use Android Studio?
 2. Do you sometimes click the run button twice within a short period of time but never know which build is currently running on your phone?
 
